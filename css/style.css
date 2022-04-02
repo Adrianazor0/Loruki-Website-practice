@@ -53,6 +53,7 @@ pre {
 }
 
 .hidden {
+    display: none;
     visibility: none;
     height: 0;
 }
@@ -376,6 +377,14 @@ pre {
     .navbar ul {
         padding: 10px;
         background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .showcase-form {
+        width: 250px;
+    }
+
+    .docs-head img {
+        width: 150px;
     }
 
     .footer .flex {
